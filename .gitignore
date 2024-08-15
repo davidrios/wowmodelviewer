@@ -16,3 +16,8 @@ src/stormlib/*.user
 src/glew/build/vc6/*.user
 src/glew/build/vc6/.vs
 src/glew/build/vc6/shared/
+src/CxImage/build/.vs
+src/CxImage/build/*.user
+src/CxImage/build/cximage.dir
+src/CxImage/build/win32
+src/CxImage/build/CMakeFiles/3.28.0-msvc1

@@ -1,0 +1,3 @@
+C:/Users/david/work/wowmodelviewer2/src/CxImage/build/CMakeFiles/cximage.dir
+C:/Users/david/work/wowmodelviewer2/src/CxImage/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/david/work/wowmodelviewer2/src/CxImage/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\david\work\wowmodelviewer2\src\CxImage\build\CMakeFiles\d5aeaadd6eec3e1e7f4a889016c028a8\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E2FB6C8F-A9A7-351C-B4AC-5CEE10415060}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
