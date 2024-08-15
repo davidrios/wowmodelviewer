@@ -650,8 +650,10 @@ inline void ModelCanvas::CreateTexture(wxString filename, GLuint texture)
 		image = new CxImage(filename.mb_str(), CXIMAGE_FORMAT_BMP);
 	else if (tmp == wxT("tga"))
 		image = new CxImage(filename.mb_str(), CXIMAGE_FORMAT_TGA);
+#ifdef CXIMAGE_FORMAT_JPG
 	else if (tmp == wxT("jpg"))
 		image = new CxImage(filename.mb_str(), CXIMAGE_FORMAT_JPG);
+#endif
 	else if (tmp == wxT("png"))
 		image = new CxImage(filename.mb_str(), CXIMAGE_FORMAT_PNG);
 	else 
@@ -1838,8 +1840,10 @@ void ModelCanvas::LoadBackground(wxString filename)
 			format = CXIMAGE_FORMAT_BMP;
 		else if (tmp == wxT("tga"))
 			format = CXIMAGE_FORMAT_TGA;
+#ifdef CXIMAGE_FORMAT_JPG
 		else if (tmp == wxT("jpg"))
 			format = CXIMAGE_FORMAT_JPG;
+#endif
 		else if (tmp == wxT("png"))
 			format = CXIMAGE_FORMAT_PNG;
 		else 
@@ -2075,10 +2079,12 @@ void ModelCanvas::Screenshot(const wxString fn, int x, int y)
 		newImage->Save(fn.fn_str(), CXIMAGE_FORMAT_PNG);
 	//} else if (temp.GetExt() == "jp2") {
 	//	newImage->Save(fn.fn_str(), CXIMAGE_FORMAT_JP2);
+#ifdef CXIMAGE_FORMAT_JPG
 	} else if (temp.GetExt() == wxT("jpg")) {
 		newImage->SetJpegQuality(100);
 		newImage->SetJpegScale(100);
 		newImage->Save(fn.fn_str(), CXIMAGE_FORMAT_JPG);
+#endif
 	} else if (temp.GetExt() == wxT("bmp")) // Save Bitmap format
 		newImage->Save(fn.fn_str(), CXIMAGE_FORMAT_BMP);
 	else

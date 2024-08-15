@@ -848,7 +848,11 @@ void TextureManager::LoadBLP(GLuint id, Texture *tex)
 
 		f.seek(offsets[0]);
 		f.read(buf,sizes[0]);
+#ifdef CXIMAGE_FORMAT_JPG
 		image = new CxImage(buf, sizes[0], CXIMAGE_FORMAT_JPG);
+#else
+		image = new CxImage(buf, sizes[0], CXIMAGE_FORMAT_PNG);
+#endif
 
 		if (image == NULL)
 			return;
