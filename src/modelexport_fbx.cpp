@@ -1,3 +1,4 @@
+#ifdef FBX_SUPPORT
 #include "modelcanvas.h"
 #include "modelexport.h"
 #include "database.h"
@@ -719,3 +720,4 @@ void ExportFBX_WMO(WMO* m, const char* fn) {
  //   // Destroy all objects created by the FBX SDK.
  //   DestroySdkObjects(sdk_mgr);
 }
+#endif

@@ -1,0 +1,15 @@
+bin/*
+CMakeBuild/*
+src/latex/*
+src/html/*
+.project
+.cproject
+.settings/*
+Installers/Windows/NSIS/*.exe
+Windows/.vs
+Windows/Debug*
+src/lib/Windows/32bit
+src/lib/Windows/64bit
+src/stormlib/bin
+Windows/*.user
+src/stormlib/*.user

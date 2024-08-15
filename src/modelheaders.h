@@ -1,10 +1,10 @@
 #ifndef MODELHEADERS_H
 #define MODELHEADERS_H
 
-#pragma pack(push,1)
-
 #include "Vec3D.h"
 #include "util.h" // unit8, etC.
+
+#pragma pack(push,1)
 
 struct Vertex {
     float tu, tv;
