@@ -65,8 +65,8 @@
 			#else
 				#pragma message("     Adding library: glew32d.lib" ) 
 				#pragma comment( lib, "glew32d.lib" )
-				#pragma message("     Adding library: fbxsdk_20113d.lib" ) 
-				#pragma comment( lib, "fbxsdk_20113d.lib" )
+				//#pragma message("     Adding library: fbxsdk_20113d.lib" ) 
+				//#pragma comment( lib, "fbxsdk_20113d.lib" )
 			#endif
 		#endif
 	#else	// If Release

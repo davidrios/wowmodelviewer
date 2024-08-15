@@ -72,9 +72,6 @@
     <ClCompile Include="..\src\particle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\mpq_stormlib.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\src\modelviewer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
